@@ -19,7 +19,5 @@ class Song < ActiveRecord::Base
       found = Artist.create(name:"Drake")
       self.artist = found
     end
-       
-
   end
 end
